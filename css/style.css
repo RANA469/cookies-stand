@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(162, 208, 193);
+   
+    text-align: center;
+}
+
+main{
+    background-color:crimson;
+}
+.img {width: 15%;
+height: 15;
+}
+
+.title{
+    text-align: center;
+padding: 20px;
+}
+.nav{
+    display: inline;
+text-align: center;
+}
+
+.nav > li{
+    display: inline;
+}
+td{
+    border: 2px solid black;
+}
+table{
+    border-collapse:collapse
+} 
+.sales{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhkkO8o4kcwN8BaHE7Fp9DaGvRxQs51-Mmlw&usqp=CAU")
+}
+#store-data{
+    text-align: center;
+  text-decoration:  underline;
+}
