@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 header{
-    background-color: rgb(162, 208, 193);
+    background-color: rgb(250, 219, 242);
    
-    text-align: center;
 }
-
+.list {
+    text-align: center;
+    border: 5px solid rgb(124, 112, 112);
+    font-size: 200%;
+}
 main{
-    background-color:crimson;
+    background-color:rgb(230, 171, 183);
+}
+footer{
+    background-color:rgb(184, 89, 108);
 }
 .img {width: 15%;
 height: 15;
@@ -24,15 +31,37 @@ text-align: center;
     display: inline;
 }
 td{
-    border: 2px solid black;
+    border:4px solid rgb(216, 133, 133);
 }
 table{
     border-collapse:collapse
+
 } 
 .sales{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhkkO8o4kcwN8BaHE7Fp9DaGvRxQs51-Mmlw&usqp=CAU")
 }
 #store-data{
-    text-align: center;
+    /* text-align: center; */
   text-decoration:  underline;
+  font-size: 150%;
+  
+}
+.p{
+    font-family:'Potta One';
+    
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.logo{
+width:150px;
+/* text-align: ; */
+border: 5px solid rgb(151, 139, 139)
+}
+.form1{
+    font-size: 150%;
+    font-family:'Potta One';
 }

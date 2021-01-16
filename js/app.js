@@ -7,18 +7,18 @@ function HourlyTotal(hour, numberOfCookiesPerHour) {
     this.numberOfCookiesPerHour = numberOfCookiesPerHour;
 }
 
-HourlyTotal.prototype.toString = function() {
+HourlyTotal.prototype.toString = function () {
     return (
         this.hour + ": " + Math.floor(this.numberOfCookiesPerHour) + " cookies"
     );
 };
-function Shop (
+function Shop(
     location,
     minNumberOfCustomer,
     maxNumberOfCustomer,
     averageCookiesPerSale
-    
-){
+
+) {
     this.location = location;
     this.minNumberOfCustomer = minNumberOfCustomer;
     this.maxNumberOfCustomer = maxNumberOfCustomer;
@@ -68,11 +68,26 @@ var shops = [seattle, Dubai, tokyo, Paris, lima];
 var form = document.getElementById("store-data");
 form.addEventListener("submit", function (event) {
     event.preventDefault();
-    var location = document.getElementById("branch-name").Value;
-    var minNumberOfCustomer = parseInt(event.target.minNumberOfCustomer);
-    var maxNumberOfCustomer = parseInt(event.target.maxNumberOfCustomer);
-    var averageCookiesPerSale = parseInt(event.target.averageCookiesPerSale.value);
-
+    //     var location = document.getElementById("branch-name").Value;
+    //     var minNumberOfCustomer = parseInt(event.target.minNumberOfCustomer);
+    //     var maxNumberOfCustomer = parseInt(event.target.maxNumberOfCustomer);
+    //     var averageCookiesPerSale = parseInt(event.target.averageCookiesPerSale.value);
+    //     if((name!== null || name!==" ")&&(minCustomerPerHour!== null ||minCustomerPerHour!==" ")&&(maxCustomerPerHour!== null ||maxCustomerPerHour!==" "))
+    // {
+    //     var addbranch = new branch(name,minCustomerPerHour,maxCustomerPerHour,averCookiesPerSale)
+    //     var section = document.getElementById("locations");
+    //     section.innerHTML='';
+    //     headertag();
+    //     for(var h=0;h<branches.length;h++){
+    //         branches[i].gitCustomerPerHour;
+    //         branches[i].getCookiesPerHour;
+    //         branches[i].render();
+    //     }
+    //     tableContainer();
+    // }
+    // else{
+    //     alert('please insert a value');
+    // }
     var shop = new shop(
         location,
         minCustomerPerHour,
